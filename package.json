@@ -1,18 +1,28 @@
 {
   "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
     "yarn": "^1.22.21"
   },
   "name": "yz-windows-demo",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron-forge start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
   },
   "repository": "git@github.com:yz-im/yz-windows-demo.git",
   "author": "terry",
+  "description": "yz windows demo",
   "license": "MIT",
   "devDependencies": {
+    "@electron-forge/cli": "^7.2.0",
+    "@electron-forge/maker-deb": "^7.2.0",
+    "@electron-forge/maker-rpm": "^7.2.0",
+    "@electron-forge/maker-squirrel": "^7.2.0",
+    "@electron-forge/maker-zip": "^7.2.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.2.0",
     "electron": "^28.1.0"
   }
 }
