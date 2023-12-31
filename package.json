@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "yarn": "^1.22.21"
+  },
+  "name": "yz-windows-demo",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git@github.com:yz-im/yz-windows-demo.git",
+  "author": "terry",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.1.0"
+  }
+}
